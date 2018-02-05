@@ -15,6 +15,7 @@
 		04AA61771FAB19FA007786FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA61751FAB19FA007786FE /* LaunchScreen.storyboard */; };
 		04AA61821FAB19FA007786FE /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA61811FAB19FA007786FE /* MemoPadTests.swift */; };
 		04AA618D1FAB19FA007786FE /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA618C1FAB19FA007786FE /* MemoPadUITests.swift */; };
+		04AA619B1FAB244F007786FE /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA619A1FAB244F007786FE /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04AA61881FAB19FA007786FE /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AA618C1FAB19FA007786FE /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		04AA618E1FAB19FA007786FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA619A1FAB244F007786FE /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				04AA61751FAB19FA007786FE /* LaunchScreen.storyboard */,
 				04AA61781FAB19FA007786FE /* Info.plist */,
 				04AA61701FAB19FA007786FE /* MemoPad.xcdatamodeld */,
+				04AA619A1FAB244F007786FE /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AA619B1FAB244F007786FE /* MemoViewController.swift in Sources */,
 				04AA616C1FAB19FA007786FE /* ViewController.swift in Sources */,
 				04AA61721FAB19FA007786FE /* MemoPad.xcdatamodeld in Sources */,
 				04AA616A1FAB19FA007786FE /* AppDelegate.swift in Sources */,
