@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="swq-ui-1Ia">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="swq-ui-1Ia">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -54,14 +54,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rsn-dj-unU">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rsn-dj-unU">
                                 <rect key="frame" x="79" y="133" width="216" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xdw-tZ-FUh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xdw-tZ-FUh">
                                 <rect key="frame" x="0.0" y="347" width="375" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -69,15 +71,6 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Rsn-dj-unU" firstAttribute="top" secondItem="Tdf-Ei-rS8" secondAttribute="top" constant="69" id="9ug-sc-V3x"/>
-                            <constraint firstItem="Xdw-tZ-FUh" firstAttribute="leading" secondItem="Tdf-Ei-rS8" secondAttribute="leading" id="B3u-TU-rvG"/>
-                            <constraint firstItem="Rsn-dj-unU" firstAttribute="leading" secondItem="Tdf-Ei-rS8" secondAttribute="leading" constant="79.5" id="KP3-QF-Os9"/>
-                            <constraint firstItem="Xdw-tZ-FUh" firstAttribute="top" secondItem="Rsn-dj-unU" secondAttribute="bottom" constant="184" id="PA6-tH-XvU"/>
-                            <constraint firstItem="Xdw-tZ-FUh" firstAttribute="bottom" secondItem="Tdf-Ei-rS8" secondAttribute="bottom" id="aY3-Tv-FfH"/>
-                            <constraint firstItem="Tdf-Ei-rS8" firstAttribute="trailing" secondItem="Rsn-dj-unU" secondAttribute="trailing" constant="79.5" id="yjK-9y-79n"/>
-                            <constraint firstItem="Xdw-tZ-FUh" firstAttribute="trailing" secondItem="Tdf-Ei-rS8" secondAttribute="trailing" id="zyg-xH-gqr"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Tdf-Ei-rS8"/>
                     </view>
                     <navigationItem key="navigationItem" title="メモ" id="5Y7-1T-0ej">
@@ -88,7 +81,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="contentTextView" destination="Xdw-tZ-FUh" id="q30-rc-UIL"/>
+                        <outlet property="contentTextView" destination="Xdw-tZ-FUh" id="wa6-9w-lJ5"/>
                         <outlet property="titleTextField" destination="Rsn-dj-unU" id="Xee-Mg-Pml"/>
                     </connections>
                 </viewController>
